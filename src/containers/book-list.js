@@ -22,4 +22,4 @@ export default class BookList extends Component {
 //for that route. Then I pass down my state as prop
 
 //Container is a component that has direct access to the state 
-// produce
+// produced by Redux.
