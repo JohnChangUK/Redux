@@ -23,3 +23,5 @@ export default class BookList extends Component {
 
 //Container is a component that has direct access to the state 
 // produced by Redux.
+
+// Booklist and BookDetail should be containers, App should be a dumb component, not a smart container/component
