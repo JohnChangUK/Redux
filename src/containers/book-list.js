@@ -17,3 +17,6 @@ export default class BookList extends Component {
       )
   }
 }
+
+// Container is more like a route's handler, which also pulls redux's state
+//for that route. Then I pass down my state as prop
