@@ -23,9 +23,13 @@ function mapStateToProps(state) {
   // Whatever is returned will show up as props
   // inside of BookList
   return {
-    books: 
+    // books is a reference to this.props.books
+    books: state.books
   };
 }
+// This function is the GLUE between React and Redux
+
+export default connect(mapStateToProps)(BookList);
 
 // Container is more like a route's handler, which also pulls redux's state
 //for that route. Then I pass down my state as prop
